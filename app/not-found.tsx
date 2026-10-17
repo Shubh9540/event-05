@@ -14,7 +14,7 @@ export default function NotFoundPage() {
   if (!sectionData || !commonData) return null;
 
   return (
-    <main className="bg-white min-h-screen flex flex-col">
+    <main className="bg-[var(--color-white)] min-h-screen flex flex-col">
       <TopBar data={sectionData.TopBar?.variants?.EventTopBar1} logoData={sectionData.Header?.variants?.EventHeader1} />
       <Header data={sectionData.Header?.variants?.EventHeader1} />
       

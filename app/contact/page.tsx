@@ -17,7 +17,7 @@ export default function ContactPage() {
   if (!sectionData || !commonData) return null;
 
   return (
-    <main className="bg-white">
+    <main className="bg-[var(--color-white)]">
       <div className="contents">
         <TopBar data={sectionData.TopBar?.variants?.EventTopBar1} logoData={sectionData.Header?.variants?.EventHeader1} />
         <Header data={sectionData.Header?.variants?.EventHeader1} />

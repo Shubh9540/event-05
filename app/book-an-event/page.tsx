@@ -14,7 +14,7 @@ export default function BookAnEventPage() {
   const commonData = templateData.common;
 
   return (
-    <main className="flex min-h-screen flex-col bg-white">
+    <main className="flex min-h-screen flex-col bg-[var(--color-white)]">
       <TopBar data={sectionData.TopBar?.variants?.EventTopBar1} logoData={sectionData.Header?.variants?.EventHeader1} />
       <Header data={sectionData.Header?.variants?.EventHeader1} />
       <Breadcrumb data={commonData.bookEventBreadcrumb} ui={commonData.globalUI} />

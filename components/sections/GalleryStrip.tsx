@@ -39,7 +39,7 @@ export const GalleryStrip = ({ data }: GalleryStripProps) => {
   const repeatedImages = [...data.images, ...data.images];
 
   return (
-    <section className="w-full overflow-hidden bg-[#fbf7f4] py-8">
+    <section className="w-full overflow-hidden bg-[var(--color-tone-fbf7f4)] py-8">
       <div
         ref={stripRef}
         onMouseEnter={() => { pausedRef.current = true; }}

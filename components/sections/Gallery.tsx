@@ -43,7 +43,7 @@ export const Gallery = ({ data }: GalleryProps) => {
   const activeImage = activeIndex === null ? null : data.images[activeIndex];
 
   return (
-    <section className="w-full bg-white py-8 lg:py-12">
+    <section className="w-full bg-[var(--color-white)] py-8 lg:py-12">
       <div className="mx-auto w-full max-w-[1320px] px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:hidden">
           {data.images.map((item, index) => (
@@ -74,12 +74,12 @@ export const Gallery = ({ data }: GalleryProps) => {
 
       {activeImage && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-8" role="dialog" aria-modal="true" aria-label={activeImage.imageAlt}>
-          <button type="button" onClick={() => setActiveIndex(null)} aria-label={data.closeLabel} className="absolute inset-0 bg-[#1f1518]/90 backdrop-blur-sm" />
+          <button type="button" onClick={() => setActiveIndex(null)} aria-label={data.closeLabel} className="absolute inset-0 bg-[var(--color-tone-1f1518)]/90 backdrop-blur-sm" />
           <div className="relative z-10 h-[75vh] w-full max-w-5xl">
             <Image src={activeImage.image} alt={activeImage.imageAlt} fill sizes="100vw" className="object-contain" priority />
-            <button type="button" onClick={() => setActiveIndex(null)} aria-label={data.closeLabel} className="absolute right-0 top-0 flex h-11 w-11 items-center justify-center rounded-full bg-[#9f1738] text-lg text-white shadow-lg transition-colors duration-300 hover:bg-white hover:text-[#9f1738]"><FaTimes aria-hidden="true" /></button>
-            <button type="button" onClick={showPrevious} aria-label={data.previousLabel} className="absolute left-0 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#9f1738] shadow-lg transition-colors duration-300 hover:bg-[#9f1738] hover:text-white sm:-left-4"><FaArrowLeft aria-hidden="true" /></button>
-            <button type="button" onClick={showNext} aria-label={data.nextLabel} className="absolute right-0 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#9f1738] shadow-lg transition-colors duration-300 hover:bg-[#9f1738] hover:text-white sm:-right-4"><FaArrowRight aria-hidden="true" /></button>
+            <button type="button" onClick={() => setActiveIndex(null)} aria-label={data.closeLabel} className="absolute right-0 top-0 flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-tone-9f1738)] text-lg text-[var(--color-white)] shadow-lg transition-colors duration-300 hover:bg-[var(--color-white)] hover:text-[var(--color-tone-9f1738)]"><FaTimes aria-hidden="true" /></button>
+            <button type="button" onClick={showPrevious} aria-label={data.previousLabel} className="absolute left-0 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-[var(--color-white)]/90 text-[var(--color-tone-9f1738)] shadow-lg transition-colors duration-300 hover:bg-[var(--color-tone-9f1738)] hover:text-[var(--color-white)] sm:-left-4"><FaArrowLeft aria-hidden="true" /></button>
+            <button type="button" onClick={showNext} aria-label={data.nextLabel} className="absolute right-0 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-[var(--color-white)]/90 text-[var(--color-tone-9f1738)] shadow-lg transition-colors duration-300 hover:bg-[var(--color-tone-9f1738)] hover:text-[var(--color-white)] sm:-right-4"><FaArrowRight aria-hidden="true" /></button>
           </div>
         </div>
       )}

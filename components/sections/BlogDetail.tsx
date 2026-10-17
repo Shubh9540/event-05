@@ -8,7 +8,7 @@ export const BlogDetail = ({ data, postId }: BlogDetailProps) => {
   const sections = data.detail.sections.slice(0, 3);
 
   return (
-    <article className="bg-[#fffaf6] py-8 lg:py-12">
+    <article className="bg-[var(--color-tone-fffaf6)] py-8 lg:py-12">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="relative aspect-[16/9] overflow-hidden rounded-lg lg:aspect-[12/5]"><Image src={post.image} alt={post.imageAlt} fill priority sizes="(min-width: 1280px) 1200px, 100vw" className="object-cover" /></div>
         <p className="mx-auto mt-5 max-w-6xl text-sm leading-7 text-[var(--color-text)] sm:text-base">{post.description}</p>
@@ -22,7 +22,7 @@ export const BlogDetail = ({ data, postId }: BlogDetailProps) => {
         </div>
         <div className="mt-8 grid grid-cols-1 items-center gap-6 lg:grid-cols-2">
           <div><p className="font-heading text-2xl text-[var(--color-accent)]">{sections[2]?.number}</p><h2 className="mt-1 font-heading text-3xl leading-tight text-[var(--color-heading)]">{sections[2]?.title}</h2><p className="mt-3 text-sm leading-7 text-[var(--color-text)] sm:text-base">{sections[2]?.description}</p></div>
-          <blockquote className="bg-[#f8eee5] p-7 font-heading text-xl italic leading-8 text-[#705950] sm:p-9 sm:text-2xl"><span className="mb-3 block text-5xl leading-none text-[var(--color-accent)]">â€œ</span>{data.detail.quoteText}</blockquote>
+          <blockquote className="bg-[var(--color-tone-f8eee5)] p-7 font-heading text-xl italic leading-8 text-[var(--color-tone-705950)] sm:p-9 sm:text-2xl"><span className="mb-3 block text-5xl leading-none text-[var(--color-accent)]">â€œ</span>{data.detail.quoteText}</blockquote>
         </div>
         <div className="mx-auto mt-10 max-w-4xl text-center"><div className="mx-auto mb-3 h-px w-16 bg-[var(--color-accent)]" /><h2 className="font-heading text-3xl text-[var(--color-heading)]">{data.detail.conclusionTitle}</h2><p className="mt-3 text-sm leading-7 text-[var(--color-text)] sm:text-base">{data.detail.conclusionText}</p></div>
       </div>

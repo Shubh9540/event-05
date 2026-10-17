@@ -17,7 +17,7 @@ export default function ServicesPage() {
   if (!sectionData || !commonData) return null;
 
   return (
-    <main className="flex min-h-screen flex-col bg-white">
+    <main className="flex min-h-screen flex-col bg-[var(--color-white)]">
       <div className="contents">
         <TopBar data={sectionData.TopBar?.variants?.EventTopBar1} />
         <Header data={sectionData.Header?.variants?.EventHeader1} />

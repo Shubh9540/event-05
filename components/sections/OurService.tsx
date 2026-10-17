@@ -43,26 +43,26 @@ export const OurService = ({ data, limit }: OurServiceProps) => {
   const visibleServices = typeof limit === 'number' ? data.services.slice(0, limit) : data.services;
 
   return (
-    <section id="our-services" className="w-full bg-[#fffaf7] py-8 lg:py-12">
+    <section id="our-services" className="w-full bg-[var(--color-tone-fffaf7)] py-8 lg:py-12">
       <div className="mx-auto w-full max-w-[1320px] px-4 md:px-6 lg:px-8">
         <div className="mx-auto mb-8 max-w-3xl text-center lg:mb-10">
           <div className="mb-3 flex items-center justify-center gap-3">
-            <span className="h-px w-10 bg-[#cf9a63]" />
-            <p className="text-[10px] font-medium uppercase tracking-[0.34em] text-[#9f1738] sm:text-xs">
+            <span className="h-px w-10 bg-[var(--color-tone-cf9a63)]" />
+            <p className="text-[10px] font-medium uppercase tracking-[0.34em] text-[var(--color-tone-9f1738)] sm:text-xs">
               {data.subtitle}
             </p>
-            <span className="h-px w-10 bg-[#cf9a63]" />
+            <span className="h-px w-10 bg-[var(--color-tone-cf9a63)]" />
           </div>
-          <h2 className="font-heading text-3xl leading-tight text-[#292325] sm:text-4xl lg:text-5xl">
+          <h2 className="font-heading text-3xl leading-tight text-[var(--color-heading)] sm:text-4xl lg:text-5xl">
             {data.title}{' '}
-            <span className="text-[#b66b25]">{data.highlightedTitle}</span>
+            <span className="text-[var(--color-tone-b66b25)]">{data.highlightedTitle}</span>
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-[#786e6d] sm:text-base">
+          <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-[var(--color-tone-786e6d)] sm:text-base">
             {data.description}
           </p>
         </div>
 
-        <div className="overflow-hidden border border-[#f1e5dd]">
+        <div className="overflow-hidden border border-[var(--color-tone-f1e5dd)]">
           {visibleServices.map((service, index) => {
             const imageFirst = index % 2 === 0;
 
@@ -78,26 +78,26 @@ export const OurService = ({ data, limit }: OurServiceProps) => {
                   />
                 </div>
 
-                <div className={`relative flex min-h-[300px] flex-col justify-between overflow-hidden bg-[#fffdfb] p-7 sm:min-h-[360px] sm:p-10 lg:min-h-[410px] lg:p-14 ${imageFirst ? 'md:order-2' : 'md:order-1'}`}>
+                <div className={`relative flex min-h-[300px] flex-col justify-between overflow-hidden bg-[var(--color-bg-main)] p-7 sm:min-h-[360px] sm:p-10 lg:min-h-[410px] lg:p-14 ${imageFirst ? 'md:order-2' : 'md:order-1'}`}>
                   <div className="relative z-10">
                     <div className="mb-1 flex items-center gap-4">
-                      <span className="font-heading text-5xl leading-none text-[#eadfd7] lg:text-6xl">{service.number}</span>
-                      <span className="h-px w-12 bg-[#d3a071]" />
+                      <span className="font-heading text-5xl leading-none text-[var(--color-tone-eadfd7)] lg:text-6xl">{service.number}</span>
+                      <span className="h-px w-12 bg-[var(--color-tone-d3a071)]" />
                     </div>
-                    <h3 className="font-heading text-3xl leading-tight text-[#292325] sm:text-4xl lg:text-[44px]">
+                    <h3 className="font-heading text-3xl leading-tight text-[var(--color-heading)] sm:text-4xl lg:text-[44px]">
                       {service.title}{' '}
-                      {service.highlightedTitle && <span className="text-[#b66b25]">{service.highlightedTitle}</span>}
+                      {service.highlightedTitle && <span className="text-[var(--color-tone-b66b25)]">{service.highlightedTitle}</span>}
                     </h3>
                   </div>
 
-                  <Link href={service.url} className="relative z-10 mt-8 inline-flex w-fit items-center gap-4 text-[10px] font-semibold uppercase tracking-[0.24em] text-[#a85b43] transition-colors duration-300 hover:text-[#79142d] sm:text-xs">
-                    <span className="border-b border-[#d7aa83] pb-1">{data.linkText}</span>
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#c9905d] text-sm">
+                  <Link href={service.url} className="relative z-10 mt-8 inline-flex w-fit items-center gap-4 text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--color-tone-a85b43)] transition-colors duration-300 hover:text-[var(--color-tone-79142d)] sm:text-xs">
+                    <span className="border-b border-[var(--color-tone-d7aa83)] pb-1">{data.linkText}</span>
+                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--color-tone-c9905d)] text-sm">
                       <FaArrowRight aria-hidden="true" />
                     </span>
                   </Link>
 
-                  <span className="pointer-events-none absolute bottom-6 right-6 text-7xl text-[#dfc8ad]/55 sm:text-8xl" aria-hidden="true">
+                  <span className="pointer-events-none absolute bottom-6 right-6 text-7xl text-[var(--color-tone-dfc8ad)]/55 sm:text-8xl" aria-hidden="true">
                     {renderIcon(service.decorationIcon)}
                   </span>
                 </div>
