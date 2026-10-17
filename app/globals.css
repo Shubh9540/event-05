@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: sans-serif;
+  --font-heading: sans-serif;
+  --font-navigation: serif;
+
+  /* Eternal Moments global theme */
+  --color-bg-main: #fffdfb;
+  --color-bg-card: #ffffff;
+  --color-bg-light: #ffffff;
+  --color-bg-alt: #fbf4ef;
+  --color-primary: #3f2a2f;
+  --color-primary-dark: #261b1e;
+  --color-primary-light: #6f4a52;
+  --color-secondary: #c99a5b;
+  --color-accent: #b6485f;
+  --color-accent-light: #d98795;
+  --color-text: #5e5052;
+  --color-text-light: #8d7d7e;
+  --color-border: #eadbd6;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}

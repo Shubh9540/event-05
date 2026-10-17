@@ -1,0 +1,2021 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-poppins), sans-serif",
+        "heading": "var(--font-cormorant-garamond), serif",
+        "navigation": "var(--font-cormorant-garamond), serif"
+      }
+    },
+    "metadata": {
+      "title": "Eternal Moments | Weddings & Events",
+      "description": "Eternal Moments creates thoughtful weddings and events with elegant styling, careful planning and memorable experiences.",
+      "icon": "/main logo/logo.webp"
+    },
+    "globalUI": {
+      "breadcrumbSeparator": "•"
+    },
+    "Footer": {
+      "logo": "/main logo/logo.webp",
+      "logoAlt": "Eternal Moments Weddings & Events Logo",
+      "logoUrl": "/",
+      "copyrightText": "© 2026 Eternal Moments Weddings & Events. All rights reserved. Powered By Lestow",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Contact Us",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        },
+        {
+          "id": "social-pinterest",
+          "icon": "FaPinterestP",
+          "label": "Pinterest",
+          "url": "https://pinterest.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "quick-services",
+          "label": "Services",
+          "url": "/services"
+        },
+        {
+          "id": "quick-wedding-packages",
+          "label": "Wedding Packages",
+          "url": "/services#wedding-packages"
+        },
+        {
+          "id": "quick-gallery",
+          "label": "Gallery",
+          "url": "/gallery"
+        },
+        {
+          "id": "quick-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "quick-contact",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "contactItems": [
+        {
+          "id": "contact-email",
+          "title": "Email",
+          "value": "info@xyz.com",
+          "url": "mailto:info@xyz.com"
+        },
+        {
+          "id": "contact-phone",
+          "title": "Phone",
+          "value": "+1 000000000",
+          "url": "tel:+1000000000"
+        },
+        {
+          "id": "contact-address",
+          "title": "Address",
+          "value": "123 Main St, New York, NY, USA",
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+        }
+      ]
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Services",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-services-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-services-current",
+          "label": "Services"
+        }
+      ]
+    },
+    "faqsBreadcrumb": {
+      "title": "Faqs",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-faqs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-faqs-current",
+          "label": "Faqs"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "bookEventBreadcrumb": {
+      "title": "Book an Event",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-book-event-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-book-event-current",
+          "label": "Book an Event"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Our Gallery",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-gallery-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-gallery-current",
+          "label": "Our Gallery"
+        }
+      ]
+    },
+    "blogsBreadcrumb": {
+      "title": "Our Blog",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-blogs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blogs-current",
+          "label": "Our Blog"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Event": {
+      "sections": {
+        "TopBar": {
+          "variants": {}
+        },
+        "Header": {
+          "variants": {
+            "EventHeader1": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "Eternal Moments Weddings & Events",
+              "logoUrl": "/",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/services"
+                },
+                {
+                  "id": "nl-faqs",
+                  "label": "Faqs",
+                  "url": "/faqs"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Book an Event",
+                "url": "/book-an-event",
+                "icon": "FaArrowRight"
+              },
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "EventHero1": {
+              "autoplayDelay": 6500,
+              "slideNavigationLabel": "Show hero slide",
+              "previousSlideLabel": "Show previous hero slide",
+              "nextSlideLabel": "Show next hero slide",
+              "decorativeImage": "/banner/hero_bottom.webp",
+              "decorativeImageAlt": "Soft pink floral wedding decoration",
+              "slides": [
+                {
+                  "id": "hero-unforgettable-celebration",
+                  "eyebrow": "We Are Getting Married",
+                  "titleLine1": "Unforgettable",
+                  "highlightedTitle": "Celebration",
+                  "image": "/banner/hero_2.jpg",
+                  "imageAlt": "Bride and groom sharing a quiet wedding moment",
+                  "secondaryImage": "/banner/hero_1.jpg",
+                  "secondaryImageAlt": "Wedding couple embracing beside the sea"
+                },
+                {
+                  "id": "hero-beautiful-love-story",
+                  "eyebrow": "Your Day, Your Story",
+                  "titleLine1": "Beautiful",
+                  "highlightedTitle": "Love Stories",
+                  "image": "/banner/hero_1.jpg",
+                  "imageAlt": "Wedding couple celebrating beside the sea",
+                  "secondaryImage": "/banner/hero_3.jpg",
+                  "secondaryImageAlt": "Bride celebrating with her closest friends"
+                },
+                {
+                  "id": "hero-cherished-moments",
+                  "eyebrow": "Celebrate With Eternal Moments",
+                  "titleLine1": "Cherished",
+                  "highlightedTitle": "Moments",
+                  "image": "/banner/hero_3.jpg",
+                  "imageAlt": "Bride and bridesmaids sharing a joyful celebration",
+                  "secondaryImage": "/banner/hero_2.jpg",
+                  "secondaryImageAlt": "Bride and groom together on their wedding day"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "EventAboutUs1": {
+              "subtitle": "About Us",
+              "titleLine1": "Wedding day fantasies become a beautiful and",
+              "highlightedTitle": "spectacular event",
+              "description": "From intimate celebrations to grand destination weddings, we bring your vision to life with creativity, elegance and attention to detail. Our team ensures every moment is planned perfectly, so you can cherish memories that last a lifetime.",
+              "imageMain": "/about/about_1.webp",
+              "imageMainAlt": "Bride and groom embracing during their outdoor wedding celebration",
+              "experienceImage": "/about/about_2.webp",
+              "experienceImageAlt": "Elegant wedding reception table decorated with flowers and candles",
+              "experienceValue": 10,
+              "experienceSuffix": "+",
+              "experienceLabel": "Years of Experience",
+              "experienceIcon": "GiFlowerStar",
+              "countDuration": 1400,
+              "button": {
+                "text": "Learn More",
+                "url": "/about"
+              }
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "EventGallery1": {
+              "openLabel": "Open gallery image",
+              "closeLabel": "Close gallery image",
+              "previousLabel": "Previous gallery image",
+              "nextLabel": "Next gallery image",
+              "images": [
+                {
+                  "id": "gallery-bride-portrait",
+                  "image": "/gallery/1.webp",
+                  "imageAlt": "Bride portrait beneath a soft wedding veil"
+                },
+                {
+                  "id": "gallery-wedding-celebration",
+                  "image": "/gallery/2.webp",
+                  "imageAlt": "Newly married couple celebrating with their guests"
+                },
+                {
+                  "id": "gallery-wedding-rings",
+                  "image": "/gallery/3.webp",
+                  "imageAlt": "Couple showing their wedding rings"
+                },
+                {
+                  "id": "gallery-bridal-shoes",
+                  "image": "/gallery/4.webp",
+                  "imageAlt": "Bride adjusting her wedding shoes"
+                },
+                {
+                  "id": "gallery-wedding-dress",
+                  "image": "/gallery/5.webp",
+                  "imageAlt": "Elegant details of a bridal wedding dress"
+                },
+                {
+                  "id": "gallery-happy-couple",
+                  "image": "/gallery/6.webp",
+                  "imageAlt": "Wedding couple sharing a joyful moment"
+                },
+                {
+                  "id": "gallery-floral-details",
+                  "image": "/gallery/7.webp",
+                  "imageAlt": "Romantic wedding floral arrangement"
+                },
+                {
+                  "id": "gallery-ceremony",
+                  "image": "/gallery/8.webp",
+                  "imageAlt": "Beautifully styled wedding ceremony"
+                },
+                {
+                  "id": "gallery-celebration-details",
+                  "image": "/gallery/9.webp",
+                  "imageAlt": "Refined wedding celebration details"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "EventFaq1": {
+              "subtitle": "FAQS",
+              "title1": "Frequently Asked",
+              "highlightedTitle": "Questions",
+              "description": "Find answers to common questions about our wedding planning services, process, and what to expect.",
+              "expandLabel": "Expand answer",
+              "collapseLabel": "Collapse answer",
+              "items": [
+                {
+                  "id": "faq-options",
+                  "question": "What are my options?",
+                  "answer": "We offer complete wedding planning, partial planning, event coordination, destination wedding support, decor, catering, photography and entertainment services."
+                },
+                {
+                  "id": "faq-switch-plan",
+                  "question": "Can I switch to a different plan?",
+                  "answer": "Yes. Your planning package can be adjusted as your celebration evolves, subject to availability and the services already confirmed."
+                },
+                {
+                  "id": "faq-non-disclosure",
+                  "question": "Do you offer non-disclosure signature?",
+                  "answer": "Yes. We can arrange a confidentiality agreement for private celebrations, high-profile guests and sensitive event details."
+                },
+                {
+                  "id": "faq-refunds",
+                  "question": "Do you issue refunds?",
+                  "answer": "Refund eligibility depends on the selected package, cancellation date and vendor commitments. All terms are clearly explained before confirmation."
+                },
+                {
+                  "id": "faq-advance-booking",
+                  "question": "How far in advance should we book your services?",
+                  "answer": "For the best venue and vendor availability, we recommend booking six to twelve months in advance, especially for destination or peak-season weddings."
+                },
+                {
+                  "id": "faq-travel-accommodation",
+                  "question": "Do you help with travel and accommodation for guests?",
+                  "answer": "Yes. Our destination wedding support can include travel guidance, accommodation coordination, transfers and guest hospitality."
+                },
+                {
+                  "id": "faq-event-size",
+                  "question": "Can you manage both small and large wedding events?",
+                  "answer": "Yes. We plan intimate ceremonies as well as large multi-day celebrations, tailoring the team and planning process to suit your guest count."
+                },
+                {
+                  "id": "faq-custom-themes",
+                  "question": "Do you provide customised wedding themes and décor?",
+                  "answer": "Yes. Our designers create personalised themes, floral concepts, colour palettes and decor details around your preferred style."
+                },
+                {
+                  "id": "faq-local-vendors",
+                  "question": "Will you coordinate with local vendors at the destination?",
+                  "answer": "Yes. We source, brief and coordinate trusted local vendors while maintaining one clear plan and timeline for the entire celebration."
+                },
+                {
+                  "id": "faq-get-started",
+                  "question": "How do we get started with Eternal Moments?",
+                  "answer": "Book an initial consultation and share your date, location, guest count and vision. Our team will then recommend the most suitable planning approach."
+                }
+              ]
+            }
+          }
+        },
+        "OurService": {
+          "variants": {
+            "EventOurService1": {
+              "subtitle": "OUR SERVICES",
+              "title": "Unforgettable Moments for",
+              "highlightedTitle": "Every Occasion",
+              "description": "We create meaningful experiences with creativity, precision and personalised planning.",
+              "linkText": "Learn More",
+              "services": [
+                {
+                  "id": "wedding",
+                  "number": "01",
+                  "title": "Wedding",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Bride and groom celebrating at an elegant wedding ceremony",
+                  "decorationIcon": "FaHeart",
+                  "url": "/services/wedding"
+                },
+                {
+                  "id": "birthday-parties",
+                  "number": "02",
+                  "title": "Birthday Parties",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Elegant birthday party cake and balloon decoration",
+                  "decorationIcon": "FaBirthdayCake",
+                  "url": "/services/birthday-parties"
+                },
+                {
+                  "id": "corporate-event",
+                  "number": "03",
+                  "title": "Corporate",
+                  "highlightedTitle": "Event",
+                  "image": "/service/3.webp",
+                  "imageAlt": "Corporate conference arranged in a professional event hall",
+                  "decorationIcon": "FaBuilding",
+                  "url": "/services/corporate-event"
+                },
+                {
+                  "id": "photography-video",
+                  "number": "04",
+                  "title": "Photography &",
+                  "highlightedTitle": "Video",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Professional camera recording a wedding celebration",
+                  "decorationIcon": "FaCamera",
+                  "url": "/services/photography-video"
+                },
+                {
+                  "id": "destination-wedding",
+                  "number": "05",
+                  "title": "Destination Wedding",
+                  "image": "/service/5.webp",
+                  "imageAlt": "Luxury destination wedding ceremony beside the sea",
+                  "decorationIcon": "FaMapMarkerAlt",
+                  "url": "/services/destination-wedding"
+                },
+                {
+                  "id": "engagement-ceremony",
+                  "number": "06",
+                  "title": "Engagement & Ceremony",
+                  "image": "/service/6.webp",
+                  "imageAlt": "Couple exchanging rings during an engagement ceremony",
+                  "decorationIcon": "FaHeart",
+                  "url": "/services/engagement-ceremony"
+                },
+                {
+                  "id": "decoration-floral",
+                  "number": "07",
+                  "title": "Decoration & Floral",
+                  "image": "/service/7.webp",
+                  "imageAlt": "Wedding venue decorated with flowers and warm lights",
+                  "decorationIcon": "FaLeaf",
+                  "url": "/services/decoration-floral"
+                },
+                {
+                  "id": "catering",
+                  "number": "08",
+                  "title": "Catering",
+                  "image": "/service/8.webp",
+                  "imageAlt": "Elegant catered buffet arranged with floral decoration",
+                  "decorationIcon": "FaUtensils",
+                  "url": "/services/catering"
+                },
+                {
+                  "id": "entertainment-dj",
+                  "number": "09",
+                  "title": "Entertainment & DJ",
+                  "image": "/service/9.webp",
+                  "imageAlt": "DJ entertaining guests at a lively celebration",
+                  "decorationIcon": "FaMusic",
+                  "url": "/services/entertainment-dj"
+                }
+              ]
+            }
+          }
+        },
+        "BottomBanner": {
+          "variants": {
+            "EventBottomBanner1": {
+              "image": "/other/vi.webp",
+              "imageAlt": "Bride and groom celebrating beneath floral decorations and sparkling lights",
+              "videoUrl": "https://youtu.be/-ARVwU58l7A",
+              "playLabel": "Play wedding celebration video",
+              "closeLabel": "Close video",
+              "videoTitle": "Eternal Moments wedding celebration"
+            }
+          }
+        },
+        "GalleryStrip": {
+          "variants": {
+            "EventGalleryStrip1": {
+              "images": [
+                {
+                  "id": "gallery-strip-bride-portrait",
+                  "image": "/gallery/1.webp",
+                  "imageAlt": "Bride portrait beneath a soft wedding veil"
+                },
+                {
+                  "id": "gallery-strip-celebration",
+                  "image": "/gallery/2.webp",
+                  "imageAlt": "Newly married couple celebrating with their guests"
+                },
+                {
+                  "id": "gallery-strip-rings",
+                  "image": "/gallery/3.webp",
+                  "imageAlt": "Couple showing their wedding rings"
+                },
+                {
+                  "id": "gallery-strip-shoes",
+                  "image": "/gallery/4.webp",
+                  "imageAlt": "Bride adjusting her wedding shoes"
+                },
+                {
+                  "id": "gallery-strip-dress",
+                  "image": "/gallery/5.webp",
+                  "imageAlt": "Elegant details of a bridal wedding dress"
+                },
+                {
+                  "id": "gallery-strip-couple",
+                  "image": "/gallery/6.webp",
+                  "imageAlt": "Wedding couple sharing a joyful moment"
+                },
+                {
+                  "id": "gallery-strip-flowers",
+                  "image": "/gallery/7.webp",
+                  "imageAlt": "Romantic wedding floral arrangement"
+                },
+                {
+                  "id": "gallery-strip-ceremony",
+                  "image": "/gallery/8.webp",
+                  "imageAlt": "Beautifully styled wedding ceremony"
+                },
+                {
+                  "id": "gallery-strip-details",
+                  "image": "/gallery/9.webp",
+                  "imageAlt": "Refined wedding celebration details"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "EventServiceDetail1": {
+              "processSubtitle": "OUR PLANNING PROCESS",
+              "processTitle": "How We Plan Your Perfect Event",
+              "processSteps": [
+                {
+                  "id": "planning-consultation",
+                  "number": "01",
+                  "title": "Consultation",
+                  "description": "Understanding your vision, preferences and celebration goals.",
+                  "icon": "FaComments"
+                },
+                {
+                  "id": "planning-location",
+                  "number": "02",
+                  "title": "Location Selection",
+                  "description": "Suggesting the best venues and event settings.",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "planning-customisation",
+                  "number": "03",
+                  "title": "Planning & Customisation",
+                  "description": "Designing unique themes, details and experiences.",
+                  "icon": "FaClipboardList"
+                },
+                {
+                  "id": "planning-execution",
+                  "number": "04",
+                  "title": "Execution",
+                  "description": "Managing every detail and coordinating the event.",
+                  "icon": "FaCog"
+                },
+                {
+                  "id": "planning-celebration",
+                  "number": "05",
+                  "title": "Your Dream Event",
+                  "description": "A seamless and memorable celebration created for you.",
+                  "icon": "FaHeart"
+                }
+              ],
+              "services": [
+                {
+                  "id": "wedding",
+                  "title": "Wedding",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Bride and groom celebrating at an elegant wedding ceremony",
+                  "subtitle": "WEDDING PLANNING",
+                  "heading": "Creating Timeless Weddings Filled with Love",
+                  "description": "From your first idea to the final celebration, we plan elegant weddings with thoughtful details, trusted coordination and an experience that feels uniquely yours.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-wedding-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-wedding-current",
+                        "label": "Wedding"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "wedding-highlight-venue",
+                      "title": "Beautiful Venues",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "wedding-highlight-planning",
+                      "title": "End-to-End Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "wedding-highlight-personal",
+                      "title": "Personalised Experiences",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "wedding-highlight-execution",
+                      "title": "Hassle-Free Execution",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR WEDDING SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Complete wedding planning services shaped around your style, priorities and celebration.",
+                  "offers": [
+                    {
+                      "id": "wedding-offer-venue",
+                      "text": "Venue Selection & Negotiation"
+                    },
+                    {
+                      "id": "wedding-offer-theme",
+                      "text": "Wedding Theme & Decor Planning"
+                    },
+                    {
+                      "id": "wedding-offer-guests",
+                      "text": "Guest Hospitality & Assistance"
+                    },
+                    {
+                      "id": "wedding-offer-vendors",
+                      "text": "Trusted Vendor Management"
+                    },
+                    {
+                      "id": "wedding-offer-events",
+                      "text": "Pre & Post Wedding Events"
+                    },
+                    {
+                      "id": "wedding-offer-coordination",
+                      "text": "On-Site Coordination & Support"
+                    }
+                  ]
+                },
+                {
+                  "id": "birthday-parties",
+                  "title": "Birthday Parties",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Elegant birthday cake and balloon party decoration",
+                  "subtitle": "BIRTHDAY CELEBRATIONS",
+                  "heading": "Joyful Birthday Parties Made Truly Memorable",
+                  "description": "We create lively birthday celebrations for every age with imaginative themes, beautiful styling, entertainment and smooth guest coordination.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-birthday-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-birthday-current",
+                        "label": "Birthday Parties"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "birthday-highlight-theme",
+                      "title": "Creative Themes",
+                      "icon": "FaHeart"
+                    },
+                    {
+                      "id": "birthday-highlight-schedule",
+                      "title": "Complete Scheduling",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "birthday-highlight-guests",
+                      "title": "Guest Entertainment",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "birthday-highlight-execution",
+                      "title": "Stress-Free Hosting",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR BIRTHDAY SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Fun, coordinated birthday experiences designed around the guest of honour.",
+                  "offers": [
+                    {
+                      "id": "birthday-offer-theme",
+                      "text": "Party Theme & Styling"
+                    },
+                    {
+                      "id": "birthday-offer-venue",
+                      "text": "Venue Selection & Setup"
+                    },
+                    {
+                      "id": "birthday-offer-cake",
+                      "text": "Cake & Dessert Coordination"
+                    },
+                    {
+                      "id": "birthday-offer-games",
+                      "text": "Games & Entertainment"
+                    },
+                    {
+                      "id": "birthday-offer-food",
+                      "text": "Food & Beverage Planning"
+                    },
+                    {
+                      "id": "birthday-offer-guests",
+                      "text": "Guest Management"
+                    }
+                  ]
+                },
+                {
+                  "id": "corporate-event",
+                  "title": "Corporate Event",
+                  "image": "/service/3.webp",
+                  "imageAlt": "Corporate conference arranged in a professional event hall",
+                  "subtitle": "CORPORATE EVENTS",
+                  "heading": "Professional Events That Inspire and Connect",
+                  "description": "From conferences to company celebrations, we deliver polished corporate events that reflect your brand and keep every guest engaged.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-corporate-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-corporate-current",
+                        "label": "Corporate Event"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "corporate-highlight-venue",
+                      "title": "Premium Venues",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "corporate-highlight-agenda",
+                      "title": "Agenda Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "corporate-highlight-delegates",
+                      "title": "Delegate Support",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "corporate-highlight-delivery",
+                      "title": "Professional Delivery",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR CORPORATE SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Strategic event support for meetings, launches, conferences and company milestones.",
+                  "offers": [
+                    {
+                      "id": "corporate-offer-conference",
+                      "text": "Conference & Seminar Planning"
+                    },
+                    {
+                      "id": "corporate-offer-launch",
+                      "text": "Product Launches"
+                    },
+                    {
+                      "id": "corporate-offer-branding",
+                      "text": "Event Branding & Production"
+                    },
+                    {
+                      "id": "corporate-offer-av",
+                      "text": "Audio Visual Coordination"
+                    },
+                    {
+                      "id": "corporate-offer-delegate",
+                      "text": "Delegate Management"
+                    },
+                    {
+                      "id": "corporate-offer-onsite",
+                      "text": "On-Site Event Support"
+                    }
+                  ]
+                },
+                {
+                  "id": "photography-video",
+                  "title": "Photography & Video",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Professional camera recording a wedding celebration",
+                  "subtitle": "PHOTOGRAPHY & VIDEO",
+                  "heading": "Capturing Every Emotion and Beautiful Detail",
+                  "description": "Our visual storytellers preserve the atmosphere, emotion and smallest details of your event through timeless photography and cinematic films.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-photo-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-photo-current",
+                        "label": "Photography & Video"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "photo-highlight-location",
+                      "title": "Creative Locations",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "photo-highlight-timeline",
+                      "title": "Shot Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "photo-highlight-team",
+                      "title": "Expert Team",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "photo-highlight-delivery",
+                      "title": "Timely Delivery",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR VISUAL SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Complete visual coverage that turns your celebration into lasting memories.",
+                  "offers": [
+                    {
+                      "id": "photo-offer-candid",
+                      "text": "Candid Event Photography"
+                    },
+                    {
+                      "id": "photo-offer-film",
+                      "text": "Cinematic Event Films"
+                    },
+                    {
+                      "id": "photo-offer-portrait",
+                      "text": "Couple & Guest Portraits"
+                    },
+                    {
+                      "id": "photo-offer-drone",
+                      "text": "Drone Coverage"
+                    },
+                    {
+                      "id": "photo-offer-album",
+                      "text": "Albums & Highlight Reels"
+                    },
+                    {
+                      "id": "photo-offer-editing",
+                      "text": "Professional Editing"
+                    }
+                  ]
+                },
+                {
+                  "id": "destination-wedding",
+                  "title": "Destination Wedding",
+                  "image": "/service/5.webp",
+                  "imageAlt": "Luxury destination wedding ceremony beside the sea",
+                  "subtitle": "DESTINATION WEDDING",
+                  "heading": "Creating Magical Weddings Across the Globe",
+                  "description": "We specialise in planning unforgettable destination weddings at breathtaking locations, bringing every travel, venue and celebration detail together beautifully.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-destination-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-destination-current",
+                        "label": "Destination Wedding"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "destination-highlight-location",
+                      "title": "Exclusive Locations",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "destination-highlight-planning",
+                      "title": "End-to-End Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "destination-highlight-experience",
+                      "title": "Personalised Experiences",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "destination-highlight-execution",
+                      "title": "Hassle-Free Execution",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR DESTINATION WEDDING SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Comprehensive destination wedding services tailored to your vision and travel needs.",
+                  "offers": [
+                    {
+                      "id": "destination-offer-venue",
+                      "text": "Venue Selection & Negotiation"
+                    },
+                    {
+                      "id": "destination-offer-travel",
+                      "text": "Travel & Accommodation Coordination"
+                    },
+                    {
+                      "id": "destination-offer-theme",
+                      "text": "Wedding Theme & Decor Planning"
+                    },
+                    {
+                      "id": "destination-offer-guests",
+                      "text": "Guest Hospitality & Assistance"
+                    },
+                    {
+                      "id": "destination-offer-vendors",
+                      "text": "Local Vendor Management"
+                    },
+                    {
+                      "id": "destination-offer-events",
+                      "text": "Pre & Post Wedding Events"
+                    },
+                    {
+                      "id": "destination-offer-onsite",
+                      "text": "On-Site Coordination & Support"
+                    }
+                  ]
+                },
+                {
+                  "id": "engagement-ceremony",
+                  "title": "Engagement & Ceremony",
+                  "image": "/service/6.webp",
+                  "imageAlt": "Couple exchanging rings during an engagement ceremony",
+                  "subtitle": "ENGAGEMENT & CEREMONY",
+                  "heading": "Meaningful Ceremonies Designed Around Your Story",
+                  "description": "We plan intimate engagements and traditional ceremonies with thoughtful rituals, elegant decor and warm hospitality for every guest.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-engagement-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-engagement-current",
+                        "label": "Engagement & Ceremony"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "engagement-highlight-venue",
+                      "title": "Intimate Venues",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "engagement-highlight-ritual",
+                      "title": "Ceremony Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "engagement-highlight-family",
+                      "title": "Family Hospitality",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "engagement-highlight-care",
+                      "title": "Thoughtful Execution",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR CEREMONY SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Graceful planning for engagements and cherished family ceremonies.",
+                  "offers": [
+                    {
+                      "id": "engagement-offer-concept",
+                      "text": "Ceremony Concept & Styling"
+                    },
+                    {
+                      "id": "engagement-offer-decor",
+                      "text": "Stage & Floral Decor"
+                    },
+                    {
+                      "id": "engagement-offer-rings",
+                      "text": "Ring Ceremony Coordination"
+                    },
+                    {
+                      "id": "engagement-offer-guests",
+                      "text": "Guest Hospitality"
+                    },
+                    {
+                      "id": "engagement-offer-photo",
+                      "text": "Photography Coordination"
+                    },
+                    {
+                      "id": "engagement-offer-onsite",
+                      "text": "On-Site Management"
+                    }
+                  ]
+                },
+                {
+                  "id": "decoration-floral",
+                  "title": "Decoration & Floral",
+                  "image": "/service/7.webp",
+                  "imageAlt": "Wedding venue decorated with flowers and warm lights",
+                  "subtitle": "DECORATION & FLORAL",
+                  "heading": "Transforming Spaces into Beautiful Celebrations",
+                  "description": "Our design team combines flowers, lighting, textures and custom details to create immersive event spaces with a distinctive sense of occasion.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-decor-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-decor-current",
+                        "label": "Decoration & Floral"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "decor-highlight-location",
+                      "title": "Venue Styling",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "decor-highlight-schedule",
+                      "title": "Setup Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "decor-highlight-designers",
+                      "title": "Creative Designers",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "decor-highlight-install",
+                      "title": "Flawless Installation",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR DECOR SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Creative floral and decor solutions made to complement your theme and venue.",
+                  "offers": [
+                    {
+                      "id": "decor-offer-concept",
+                      "text": "Theme & Concept Design"
+                    },
+                    {
+                      "id": "decor-offer-floral",
+                      "text": "Floral Arrangements"
+                    },
+                    {
+                      "id": "decor-offer-stage",
+                      "text": "Stage & Mandap Styling"
+                    },
+                    {
+                      "id": "decor-offer-lighting",
+                      "text": "Ambient Lighting"
+                    },
+                    {
+                      "id": "decor-offer-table",
+                      "text": "Table Styling & Centrepieces"
+                    },
+                    {
+                      "id": "decor-offer-install",
+                      "text": "Installation & Dismantling"
+                    }
+                  ]
+                },
+                {
+                  "id": "catering",
+                  "title": "Catering",
+                  "image": "/service/8.webp",
+                  "imageAlt": "Elegant catered buffet arranged with floral decoration",
+                  "subtitle": "EVENT CATERING",
+                  "heading": "Exceptional Menus Served with Style and Care",
+                  "description": "From intimate dinners to grand receptions, we coordinate memorable menus, beautiful presentation and attentive service for every celebration.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-catering-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-catering-current",
+                        "label": "Catering"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "catering-highlight-venue",
+                      "title": "Venue Coordination",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "catering-highlight-menu",
+                      "title": "Menu Planning",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "catering-highlight-team",
+                      "title": "Experienced Team",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "catering-highlight-service",
+                      "title": "Seamless Service",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR CATERING SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Tailored food and beverage experiences for events of every size and style.",
+                  "offers": [
+                    {
+                      "id": "catering-offer-menu",
+                      "text": "Custom Menu Curation"
+                    },
+                    {
+                      "id": "catering-offer-tasting",
+                      "text": "Menu Tastings"
+                    },
+                    {
+                      "id": "catering-offer-live",
+                      "text": "Live Food Stations"
+                    },
+                    {
+                      "id": "catering-offer-dessert",
+                      "text": "Dessert & Beverage Counters"
+                    },
+                    {
+                      "id": "catering-offer-staff",
+                      "text": "Professional Service Staff"
+                    },
+                    {
+                      "id": "catering-offer-presentation",
+                      "text": "Buffet Styling & Presentation"
+                    }
+                  ]
+                },
+                {
+                  "id": "entertainment-dj",
+                  "title": "Entertainment & DJ",
+                  "image": "/service/9.webp",
+                  "imageAlt": "DJ entertaining guests at a lively celebration",
+                  "subtitle": "ENTERTAINMENT & DJ",
+                  "heading": "Unforgettable Entertainment for Every Celebration",
+                  "description": "We build the perfect atmosphere with talented performers, curated music and reliable production that keeps your guests celebrating all night.",
+                  "breadcrumb": {
+                    "title": "Service Detail",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-entertainment-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-entertainment-current",
+                        "label": "Entertainment & DJ"
+                      }
+                    ]
+                  },
+                  "highlights": [
+                    {
+                      "id": "entertainment-highlight-venue",
+                      "title": "Venue Production",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "entertainment-highlight-lineup",
+                      "title": "Curated Line-Up",
+                      "icon": "FaCalendarAlt"
+                    },
+                    {
+                      "id": "entertainment-highlight-artists",
+                      "title": "Trusted Artists",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "entertainment-highlight-show",
+                      "title": "Smooth Show Flow",
+                      "icon": "FaHandshake"
+                    }
+                  ],
+                  "offerSubtitle": "OUR ENTERTAINMENT SERVICES",
+                  "offerTitle": "What We Offer",
+                  "offerDescription": "Music and live entertainment planned to match your audience and celebration style.",
+                  "offers": [
+                    {
+                      "id": "entertainment-offer-dj",
+                      "text": "Professional DJs"
+                    },
+                    {
+                      "id": "entertainment-offer-live",
+                      "text": "Live Bands & Performers"
+                    },
+                    {
+                      "id": "entertainment-offer-sound",
+                      "text": "Sound & Lighting Production"
+                    },
+                    {
+                      "id": "entertainment-offer-entry",
+                      "text": "Special Entries"
+                    },
+                    {
+                      "id": "entertainment-offer-host",
+                      "text": "Hosts & Emcees"
+                    },
+                    {
+                      "id": "entertainment-offer-flow",
+                      "text": "Entertainment Scheduling"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "EventTestimonials1": {
+              "subtitle": "TESTIMONIALS",
+              "title1": "Words from our",
+              "highlightedTitle": "happy couples",
+              "description": "Real stories, beautiful memories and heartfelt experiences from our valued clients.",
+              "previousLabel": "Previous testimonials",
+              "nextLabel": "Next testimonials",
+              "slideLabel": "Show testimonial",
+              "testimonials": [
+                {
+                  "id": "testimonial-kylie-rogers",
+                  "name": "Kylie Rogers",
+                  "location": "Bride",
+                  "quote": "Our wedding was an absolute dream and we owe it all to this amazing team. From the initial planning to the final execution, everything was handled with perfection. The decor, coordination and attention to detail were simply outstanding.",
+                  "secondaryQuote": "The team understood our vision from the very first meeting and made the entire process stress-free and enjoyable. Their creativity, professionalism and warm approach made our special day even more memorable.",
+                  "rating": 5,
+                  "avatar": "/team/2.jpg"
+                },
+                {
+                  "id": "testimonial-daniel-cole",
+                  "name": "Daniel Cole",
+                  "location": "Groom",
+                  "quote": "Every detail of our celebration felt thoughtful and personal. The planning team kept us informed, understood what mattered to us and made the entire wedding day flow effortlessly.",
+                  "secondaryQuote": "Our families could simply enjoy the occasion because everything behind the scenes was managed with confidence and care. It was exactly the celebration we had imagined.",
+                  "rating": 5,
+                  "avatar": "/team/1.jpg"
+                },
+                {
+                  "id": "testimonial-emily-parker",
+                  "name": "Emily Parker",
+                  "location": "Bride",
+                  "quote": "The styling was elegant, the coordination was seamless and the entire experience felt calm from beginning to end. Our guests are still talking about how beautiful everything was.",
+                  "secondaryQuote": "We felt listened to throughout the process, and every choice reflected our personalities. The team gave us memories we will treasure for a lifetime.",
+                  "rating": 5,
+                  "avatar": "/team/3.jpg"
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "EventBlogs1": {
+              "authorPrefix": "by",
+              "readMoreText": "Read More",
+              "authors": [
+                {
+                  "id": "blog-author-daniel",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Eternal Moments wedding editor"
+                },
+                {
+                  "id": "blog-author-anita",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Eternal Moments wedding editor"
+                },
+                {
+                  "id": "blog-author-arjun",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Eternal Moments wedding editor"
+                },
+                {
+                  "id": "blog-author-sophia",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/3.webp",
+                  "imageAlt": "Eternal Moments wedding editor"
+                },
+                {
+                  "id": "blog-author-michael",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Eternal Moments wedding editor"
+                },
+                {
+                  "id": "blog-author-emily",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/7.webp",
+                  "imageAlt": "Eternal Moments wedding editor"
+                }
+              ],
+              "detail": {
+                "quoteText": "A beautiful celebration is not only about one day; it is a journey of love, thoughtful details and memories that last a lifetime.",
+                "conclusionTitle": "Final Thoughts",
+                "conclusionText": "Thoughtful planning turns every celebration into a calm and meaningful experience. Focus on what matters most to you, trust the right creative team and enjoy each moment as your story comes to life.",
+                "sections": [
+                  {
+                    "id": "blog-detail-planning",
+                    "number": "01",
+                    "title": "Choose the Perfect Setting",
+                    "description": "Begin with a venue that reflects your story, guest experience and celebration style. Consider the season, accessibility, natural light and the atmosphere you want every guest to remember.",
+                    "image": "/service/5.webp",
+                    "imageAlt": "Romantic destination wedding venue"
+                  },
+                  {
+                    "id": "blog-detail-efficiency",
+                    "number": "02",
+                    "title": "Plan the Details Early",
+                    "description": "Create a clear timeline for decor, catering, photography and guest arrangements. Early decisions give your vendors time to coordinate every detail without last-minute stress.",
+                    "image": "/service/7.webp",
+                    "imageAlt": "Elegant wedding decor and floral details"
+                  },
+                  {
+                    "id": "blog-detail-reliability",
+                    "number": "03",
+                    "title": "Create Unforgettable Experiences",
+                    "description": "Personal touches make an event feel truly yours. Meaningful music, beautiful styling and moments designed around your guests transform a lovely celebration into a lasting memory.",
+                    "image": "/service/1.webp",
+                    "imageAlt": "Couple celebrating at an elegant wedding"
+                  }
+                ]
+              },
+              "posts": [
+                {
+                  "id": "destination-wedding-guide",
+                  "category": "In Wedding Planning",
+                  "title": "How to Plan a Dream Destination Wedding",
+                  "description": "A practical guide to choosing the right setting, planning meaningful details and creating a seamless celebration away from home.",
+                  "date": "30 Aug, 2026",
+                  "image": "/service/5.webp",
+                  "imageAlt": "Elegant destination wedding by the sea",
+                  "url": "/blog/destination-wedding-guide",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "How to Plan a Dream Destination Wedding",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-blog-destination-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-blog-destination-current",
+                        "label": "How to Plan a Dream Destination Wedding"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "perfect-wedding-venue",
+                  "category": "In Venue Ideas",
+                  "title": "How to Choose the Perfect Wedding Venue",
+                  "description": "From guest comfort to ambience and light, these thoughtful checks will help you find a venue that feels completely right.",
+                  "date": "31 Aug, 2026",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Wedding couple at a beautifully decorated venue",
+                  "url": "/blog/perfect-wedding-venue",
+                  "authorId": "blog-author-anita",
+                  "breadcrumb": {
+                    "title": "How to Choose the Perfect Wedding Venue",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-blog-venue-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-blog-venue-current",
+                        "label": "How to Choose the Perfect Wedding Venue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "memorable-birthday-party",
+                  "category": "In Celebrations",
+                  "title": "Creative Ideas for a Memorable Birthday Party",
+                  "description": "Discover styling, entertainment and menu ideas that make birthday celebrations joyful, personal and effortless for every guest.",
+                  "date": "31 Aug, 2026",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Elegant birthday party decoration and cake",
+                  "url": "/blog/memorable-birthday-party",
+                  "authorId": "blog-author-arjun",
+                  "breadcrumb": {
+                    "title": "Creative Ideas for a Memorable Birthday Party",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-blog-birthday-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-blog-birthday-current",
+                        "label": "Creative Ideas for a Memorable Birthday Party"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "successful-corporate-events",
+                  "category": "In Corporate Events",
+                  "title": "A Complete Guide to Successful Corporate Events",
+                  "description": "Build a polished event experience with clear goals, purposeful design, smooth coordination and engaging guest moments.",
+                  "date": "31 Aug, 2026",
+                  "image": "/service/3.webp",
+                  "imageAlt": "Professional corporate event in a grand ballroom",
+                  "url": "/blog/successful-corporate-events",
+                  "authorId": "blog-author-sophia",
+                  "breadcrumb": {
+                    "title": "A Complete Guide to Successful Corporate Events",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-blog-corporate-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-blog-corporate-current",
+                        "label": "A Complete Guide to Successful Corporate Events"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "wedding-photography-tips",
+                  "category": "In Photography",
+                  "title": "Wedding Photography Tips for Timeless Memories",
+                  "description": "Simple ways to plan natural portraits, candid moments and beautiful details that you will cherish for years to come.",
+                  "date": "31 Aug, 2026",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Wedding photographer capturing a bride and groom",
+                  "url": "/blog/wedding-photography-tips",
+                  "authorId": "blog-author-michael",
+                  "breadcrumb": {
+                    "title": "Wedding Photography Tips for Timeless Memories",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-blog-photography-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-blog-photography-current",
+                        "label": "Wedding Photography Tips for Timeless Memories"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "floral-decoration-ideas",
+                  "category": "In Decor",
+                  "title": "Floral Decoration Ideas for an Elegant Celebration",
+                  "description": "Explore graceful floral combinations and styling ideas that bring warmth, romance and personality to every part of your event.",
+                  "date": "31 Aug, 2026",
+                  "image": "/service/7.webp",
+                  "imageAlt": "Luxurious floral wedding decoration",
+                  "url": "/blog/floral-decoration-ideas",
+                  "authorId": "blog-author-emily",
+                  "breadcrumb": {
+                    "title": "Floral Decoration Ideas for an Elegant Celebration",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-blog-floral-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-blog-floral-current",
+                        "label": "Floral Decoration Ideas for an Elegant Celebration"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "EventAboutWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "title": "We provide full-service",
+              "highlightedTitle": "planning",
+              "description": "We bring creativity, experience and passion together to create extraordinary weddings and events. From intimate celebrations to grand affairs, our team ensures every detail is perfectly planned.",
+              "features": [
+                {
+                  "id": "about-why-personal-approach",
+                  "number": "01",
+                  "title": "Personal approach",
+                  "description": "We take the time to understand your vision and create a celebration that truly reflects your style and story."
+                },
+                {
+                  "id": "about-why-elegant-solutions",
+                  "number": "02",
+                  "title": "Elegant solutions",
+                  "description": "From decor to coordination, we offer elegant and innovative solutions tailored to make your day flawless."
+                }
+              ],
+              "imageMain": "/about/about_1.webp",
+              "imageAlt": "Bride and groom celebrating beneath elegant floral decor",
+              "calloutText": "Creating Unforgettable Moments for Your Special Day"
+            }
+          }
+        },
+        "BookEvent": {
+          "variants": {
+            "EventBookEvent1": {
+              "intro": {
+                "eyebrow": "BOOK AN EVENT",
+                "title1": "Let Us Plan Your",
+                "titleHighlight": "Perfect Celebration",
+                "description": "Tell us about your special occasion and our planning team will help turn your ideas into a beautifully coordinated, unforgettable event."
+              },
+              "visual": {
+                "image": "/service/7.webp",
+                "imageAlt": "Elegant outdoor wedding reception with floral tables and warm lights",
+                "eventTypesTitle": "Types of Events We Host",
+                "eventTypes": [
+                  {
+                    "id": "event-type-weddings",
+                    "icon": "FaRing",
+                    "title": "Weddings"
+                  },
+                  {
+                    "id": "event-type-birthdays",
+                    "icon": "FaBirthdayCake",
+                    "title": "Birthday Parties"
+                  },
+                  {
+                    "id": "event-type-corporate",
+                    "icon": "FaBuilding",
+                    "title": "Corporate Events"
+                  },
+                  {
+                    "id": "event-type-engagements",
+                    "icon": "FaHeart",
+                    "title": "Engagements"
+                  },
+                  {
+                    "id": "event-type-anniversaries",
+                    "icon": "FaGlassCheers",
+                    "title": "Anniversaries"
+                  },
+                  {
+                    "id": "event-type-private",
+                    "icon": "FaUsers",
+                    "title": "Private Gatherings"
+                  }
+                ]
+              },
+              "features": [
+                {
+                  "id": "book-event-feature-spaces",
+                  "icon": "FaStar",
+                  "title": "Elegant Spaces",
+                  "description": "Beautiful indoor and outdoor venues for every occasion."
+                },
+                {
+                  "id": "book-event-feature-packages",
+                  "icon": "FaCog",
+                  "title": "Customizable Packages",
+                  "description": "Tailored to your needs and budget."
+                },
+                {
+                  "id": "book-event-feature-catering",
+                  "icon": "FaConciergeBell",
+                  "title": "Exceptional Catering",
+                  "description": "Delicious menus crafted by expert chefs."
+                },
+                {
+                  "id": "book-event-feature-support",
+                  "icon": "FaUserFriends",
+                  "title": "Dedicated Support",
+                  "description": "Our team is with you at every step."
+                }
+              ],
+              "form": {
+                "title1": "Let’s Plan Your Event",
+                "description": "Tell us a few details and our team will get back to you with a customized proposal.",
+                "fullNameLabel": "Full Name *",
+                "fullNamePlaceholder": "Enter your full name",
+                "phoneLabel": "Phone Number *",
+                "phonePlaceholder": "Enter phone number",
+                "emailLabel": "Email Address *",
+                "emailPlaceholder": "Enter email address",
+                "eventTypeLabel": "Event Type *",
+                "eventTypePlaceholder": "Select event type",
+                "weightLabel": "Number of Guests *",
+                "weightPlaceholder": "Approximate number of guests",
+                "dateLabel": "Event Date *",
+                "messageLabel": "Additional Details",
+                "messagePlaceholder": "Tell us more about your event (theme, special requests, etc.)",
+                "buttonText": "Submit Request",
+                "successMessage": "Thank you. Your event enquiry has been submitted successfully.",
+                "consentText": "By submitting this form, you agree to be contacted by our team regarding your event inquiry.",
+                "eventTypeOptions": [
+                  {
+                    "id": "book-event-option-wedding",
+                    "label": "Wedding",
+                    "value": "wedding"
+                  },
+                  {
+                    "id": "book-event-option-birthday",
+                    "label": "Birthday Party",
+                    "value": "birthday-party"
+                  },
+                  {
+                    "id": "book-event-option-corporate",
+                    "label": "Corporate Event",
+                    "value": "corporate-event"
+                  },
+                  {
+                    "id": "book-event-option-engagement",
+                    "label": "Engagement & Ceremony",
+                    "value": "engagement-ceremony"
+                  },
+                  {
+                    "id": "book-event-option-anniversary",
+                    "label": "Anniversary",
+                    "value": "anniversary"
+                  },
+                  {
+                    "id": "book-event-option-private",
+                    "label": "Private Gathering",
+                    "value": "private-gathering"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "EventContact1": {
+              "intro": {
+                "eyebrow": "CONTACT US",
+                "title1": "Contact Us",
+                "titleHighlight": "Anytime",
+                "subtitle": "WE WOULD LIKE TO HEAR FROM YOU",
+                "description": "Have a question, a special request, or ready to start planning your dream wedding? Our team is here to help you create beautiful and unforgettable moments."
+              },
+              "form": {
+                "title": "Send us a Message",
+                "namePlaceholder": "Your Name *",
+                "emailPlaceholder": "E-mail *",
+                "subjectPlaceholder": "Subject",
+                "messagePlaceholder": "Write a message...",
+                "buttonText": "Contact Us",
+                "successMessage": "Thank you. Your message has been submitted successfully."
+              },
+              "visual": {
+                "image": "/service/5.webp",
+                "imageAlt": "Elegant floral wedding venue overlooking the city",
+                "backgroundImage": "/service/5.webp",
+                "backgroundImageAlt": "Romantic waterfront wedding venue at sunset"
+              },
+              "contactItems": [
+                {
+                  "id": "contact-info-email",
+                  "icon": "FaEnvelope",
+                  "title": "Email",
+                  "lines": [
+                    {
+                      "id": "contact-email-address",
+                      "text": "info@xyz.com"
+                    }
+                  ],
+                  "url": "mailto:info@xyz.com"
+                },
+                {
+                  "id": "contact-info-phone",
+                  "icon": "FaPhoneAlt",
+                  "title": "Phone",
+                  "lines": [
+                    {
+                      "id": "contact-phone-number",
+                      "text": "+1 000000000"
+                    }
+                  ],
+                  "url": "tel:+1000000000"
+                },
+                {
+                  "id": "contact-info-address",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Address",
+                  "lines": [
+                    {
+                      "id": "contact-office-address",
+                      "text": "123 Main St, New York, NY, USA"
+                    }
+                  ],
+                  "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+                }
+              ],
+              "features": [
+                {
+                  "id": "contact-feature-plans",
+                  "icon": "FaRing",
+                  "title": "Discuss Your Plans",
+                  "description": "Share your ideas and requirements with our team."
+                },
+                {
+                  "id": "contact-feature-guidance",
+                  "icon": "FaCalendarAlt",
+                  "title": "Get Expert Guidance",
+                  "description": "We'll provide the best options tailored to your needs."
+                },
+                {
+                  "id": "contact-feature-moments",
+                  "icon": "FaHeart",
+                  "title": "Create Beautiful Moments",
+                  "description": "Let us turn your vision into an unforgettable celebration."
+                }
+              ],
+              "location": {
+                "mapUrl": "https://www.google.com/maps?q=New+York,+USA&output=embed",
+                "mapTitle": "Map showing a location in New York, USA"
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "EventTopBar1",
+          "Header": "EventHeader1",
+          "Footer": "EventFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "EventHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "OurService",
+                "component": "EventOurService1"
+              },
+              {
+                "key": "BottomBanner",
+                "component": "EventBottomBanner1"
+              },
+              {
+                "key": "GalleryStrip",
+                "component": "EventGalleryStrip1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "WhyChooseUs"
+              },
+              {
+                "key": "Testimonial",
+                "component": "Testimonial"
+              },
+              {
+                "key": "GalleryStrip",
+                "component": "EventGalleryStrip1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Gallery",
+                "component": "EventGallery1"
+              }
+            ]
+          },
+          "faqs": {
+            "components": [
+              {
+                "key": "Faq",
+                "component": "Faq"
+              },
+              {
+                "key": "BottomBanner",
+                "component": "EventBottomBanner1"
+              },
+              {
+                "key": "GalleryStrip",
+                "component": "EventGalleryStrip1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "OurService",
+                "component": "EventOurService1"
+              }
+            ]
+          },
+          "serviceDetails": {
+            "components": [
+              {
+                "key": "ServiceDetail",
+                "component": "ServiceDetail"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Blogs",
+                "component": "Blogs"
+              }
+            ]
+          },
+          "blogDetails": {
+            "components": [
+              {
+                "key": "BlogDetail",
+                "component": "BlogDetail"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "Contact"
+              }
+            ]
+          },
+          "bookAnEvent": {
+            "components": [
+              {
+                "key": "BookEvent",
+                "component": "BookEvent"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
