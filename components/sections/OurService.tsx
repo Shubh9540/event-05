@@ -43,7 +43,7 @@ export const OurService = ({ data, limit }: OurServiceProps) => {
   const visibleServices = typeof limit === 'number' ? data.services.slice(0, limit) : data.services;
 
   return (
-    <section id="wedding-packages" className="w-full bg-[#fffaf7] py-8 lg:py-12">
+    <section id="our-services" className="w-full bg-[#fffaf7] py-8 lg:py-12">
       <div className="mx-auto w-full max-w-[1320px] px-4 md:px-6 lg:px-8">
         <div className="mx-auto mb-8 max-w-3xl text-center lg:mb-10">
           <div className="mb-3 flex items-center justify-center gap-3">

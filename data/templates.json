@@ -65,9 +65,9 @@
           "url": "/services"
         },
         {
-          "id": "quick-wedding-packages",
-          "label": "Wedding Packages",
-          "url": "/services#wedding-packages"
+          "id": "quick-faqs",
+          "label": "Faqs",
+          "url": "/faqs"
         },
         {
           "id": "quick-gallery",
@@ -681,7 +681,7 @@
                   "heading": "Creating Timeless Weddings Filled with Love",
                   "description": "From your first idea to the final celebration, we plan elegant weddings with thoughtful details, trusted coordination and an experience that feels uniquely yours.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Wedding",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -756,7 +756,7 @@
                   "heading": "Joyful Birthday Parties Made Truly Memorable",
                   "description": "We create lively birthday celebrations for every age with imaginative themes, beautiful styling, entertainment and smooth guest coordination.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Birthday Parties",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -831,7 +831,7 @@
                   "heading": "Professional Events That Inspire and Connect",
                   "description": "From conferences to company celebrations, we deliver polished corporate events that reflect your brand and keep every guest engaged.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Corporate Event",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -906,7 +906,7 @@
                   "heading": "Capturing Every Emotion and Beautiful Detail",
                   "description": "Our visual storytellers preserve the atmosphere, emotion and smallest details of your event through timeless photography and cinematic films.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Photography & Video",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -981,7 +981,7 @@
                   "heading": "Creating Magical Weddings Across the Globe",
                   "description": "We specialise in planning unforgettable destination weddings at breathtaking locations, bringing every travel, venue and celebration detail together beautifully.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Destination Wedding",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -1060,7 +1060,7 @@
                   "heading": "Meaningful Ceremonies Designed Around Your Story",
                   "description": "We plan intimate engagements and traditional ceremonies with thoughtful rituals, elegant decor and warm hospitality for every guest.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Engagement & Ceremony",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -1135,7 +1135,7 @@
                   "heading": "Transforming Spaces into Beautiful Celebrations",
                   "description": "Our design team combines flowers, lighting, textures and custom details to create immersive event spaces with a distinctive sense of occasion.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Decoration & Floral",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -1210,7 +1210,7 @@
                   "heading": "Exceptional Menus Served with Style and Care",
                   "description": "From intimate dinners to grand receptions, we coordinate memorable menus, beautiful presentation and attentive service for every celebration.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Catering",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
@@ -1285,7 +1285,7 @@
                   "heading": "Unforgettable Entertainment for Every Celebration",
                   "description": "We build the perfect atmosphere with talented performers, curated music and reliable production that keeps your guests celebrating all night.",
                   "breadcrumb": {
-                    "title": "Service Detail",
+                    "title": "Entertainment & DJ",
                     "bgImage": "/main logo/breadcrumb.webp",
                     "paths": [
                       {
